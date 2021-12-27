@@ -9,5 +9,4 @@ class Vehicule:
         self.mileage = mileage
 
 class Bus(Vehicule):
-    def __init__(self,length,width):
-        super().__init__(self,length,width)
+  
