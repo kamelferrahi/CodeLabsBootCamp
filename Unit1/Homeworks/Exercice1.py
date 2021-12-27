@@ -6,8 +6,8 @@ print("Length of list: "+str(len(list))+"\n")
 
 i = 0
 
-while (list[i]**2<list[len(list)-1]):
-    print(list[i]**2)
-    i += 1
+for x in list:
+    print(str(x**2)+"\n")
+   
 
 print("\n\nis 57 in the list? Answer: ",57 in list)
