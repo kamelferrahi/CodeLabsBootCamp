@@ -11,8 +11,13 @@ def isPrime(x):
     i = 2
     while (i<x):
         if (x%i == 0):return False
+        i += 1
     return True
 
+def factorial(x):
+    if (x == 0): return 1
+    else: return x*factorial(x-1)
+    
 def isInRange(x,range):
     return (x<=range[1] and x>=range[0])
 
